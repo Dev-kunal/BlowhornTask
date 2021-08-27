@@ -15,13 +15,13 @@
   margin-bottom: 0.5rem;
   border: none;
   padding: 0.8rem 1.5rem;
-  background-color: #5351c0;
   background-color: #5653fa;
   color: white;
   font-weight: bold;
   border-radius: 3rem;
   position: relative;
   cursor: pointer;
+  z-index: -1;
 }
 .hero-para {
   max-width: 25rem;

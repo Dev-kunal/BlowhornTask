@@ -27,16 +27,18 @@ export const Navbar = () => {
           <i class="fas fa-align-right"></i>
         </div>
         {navbar && (
-          <nav className="dropdown">
-            <ul>
-              <li>About</li>
-              <li>Team</li>
-              <li>Blog</li>
-              <li>Pricing</li>
-              <li>Contact</li>
-              <li>Terms</li>
-            </ul>
-          </nav>
+          <div className="dropdown-container">
+            <nav className="dropdown">
+              <ul>
+                <li>About</li>
+                <li>Team</li>
+                <li>Blog</li>
+                <li>Pricing</li>
+                <li>Contact</li>
+                <li>Terms</li>
+              </ul>
+            </nav>
+          </div>
         )}
       </div>
       <div className="actions">
