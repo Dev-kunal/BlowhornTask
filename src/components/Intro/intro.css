@@ -15,6 +15,17 @@
   width: 40%;
   text-align: left;
 }
+.intro-list {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  margin: 0.3rem 0rem;
+}
+.fa-circle {
+  color: #fece2f;
+  margin-right: 0.4rem;
+}
+
 @media screen and (max-width: 767px) {
   .section1,
   .section2 {

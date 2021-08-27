@@ -12,7 +12,7 @@ export const Footer = () => {
           </ul>
         </nav>
       </div>
-      <ul>
+      <ul style={{ paddingLeft: "0" }}>
         <li className="inline">
           {" "}
           <i class="fab fa-twitter mg-2"></i>
