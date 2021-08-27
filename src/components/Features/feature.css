@@ -1,0 +1,35 @@
+.cards {
+  display: flex;
+  max-width: 65rem;
+  justify-content: center;
+  margin: 0 auto;
+  flex-wrap: wrap;
+}
+.feature-header {
+  max-width: 50rem;
+  text-align: left;
+  padding: 0 1rem;
+  margin: 0 auto;
+}
+.feature-card {
+  background-color: #d0daec80;
+  padding: 2rem;
+  border-radius: 0.75rem;
+  min-width: 10rem;
+  max-width: 12rem;
+  margin: 1rem;
+}
+.feature-card p {
+  font-size: small;
+}
+.icon-bg {
+  background-color: #2168ebe5;
+  display: inline-block;
+  border-radius: 50%;
+  padding: 1rem;
+  width: 1.2rem;
+  height: 1.2rem;
+}
+.icon-bg i {
+  color: white;
+}

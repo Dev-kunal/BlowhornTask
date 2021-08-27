@@ -1,0 +1,46 @@
+.hero {
+  text-align: center;
+  max-width: 35rem;
+  margin: 0 auto;
+  padding-top: 2rem;
+}
+.hero-heading {
+  line-height: 1.1;
+  font-size: 3.3rem;
+  color: var(--textColor);
+  font-weight: 800;
+}
+.btn-lg {
+  margin-top: 2rem;
+  margin-bottom: 0.5rem;
+  border: none;
+  padding: 0.8rem 1.5rem;
+  background-color: #5351c0;
+  background-color: #5653fa;
+  color: white;
+  font-weight: bold;
+  border-radius: 3rem;
+  position: relative;
+  cursor: pointer;
+}
+.hero-para {
+  max-width: 25rem;
+  margin: 0 auto;
+}
+.badge {
+  position: absolute;
+  background-color: #5351c0;
+  top: -0.5rem;
+  right: -1rem;
+  background-color: #2bc48a;
+  font-size: x-small;
+  font-weight: normal;
+  padding: 0.2rem 0.5rem;
+  border-radius: 1rem;
+}
+
+@media screen and (max-width: 767px) {
+  .hero {
+    max-width: 95vw;
+  }
+}
