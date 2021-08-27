@@ -23,7 +23,7 @@ export const Navbar = () => {
         </nav>
       </div>
       <div className="mobile-navigation">
-        <div className="icon-bg icon-nav" onClick={showNavbar}>
+        <div className="icon-nav" onClick={showNavbar}>
           <i class="fas fa-align-right"></i>
         </div>
         {navbar && (
